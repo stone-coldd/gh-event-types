@@ -14,7 +14,7 @@ on:
       - main # main
       - 'dev-*' # dev-new dev-this-is-new
       - 'feat/**' # feat/new feat/new/button
-    path-ignore: #if path is mentioned here instead of path-ignore, the below comment is reverse for this case.
+    path: #if path is mentioned here instead of path-ignore, the below comment is reverse for this case.
       - '.github/workflows/*' # if there is some changes happened in files on this folder, work flow will not be triggered.
 jobs:
   deploy:
